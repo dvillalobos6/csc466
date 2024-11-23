@@ -100,7 +100,7 @@ sudo /home/sandbox/Desktop/conversion.py
 # Convert Tshark PCAP file to JSON
 echo "Converting NetworkCapture.pcap to json"
 tshark -r /home/sandbox/Desktop/logs/NetworkCapture.pcapng -T json > /home/sandbox/Desktop/logs/NetworkCapture.json
-# Master File Table Analysis
+# Master File Table Analysis (add any volatility analysis you would like)
 volatility -f /home/sandbox/Desktop/logs/DumpItDirectory/DESKTOP-CS1ANPM-20241119-235635.raw --profile=Win10x64 mftparser --output=json > /home/sandbox/Desktop/logs/mftparser.json
 echo "Done with strings"
 # Process Memory Dump
