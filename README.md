@@ -9,8 +9,8 @@ This repository contains instructions for installing a malware analysis sandbox 
 ---
 
 ### **System Requirements**
-- Ubuntu (host machine)
-- Windows Virtual Machine
+- Ubuntu (Virtual Host Machine)
+- Windows (Nested Virtual Machine)
 - Nested virtualization enabled
 - Minimum recommended specs:
   - 16GB RAM
