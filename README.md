@@ -85,7 +85,16 @@ Install Grafana for visualization:
 ```bash
 sudo snap install grafana
 ```
-
+#### **5a. Installing InfluxDB**
+Install InfluxDB to store the data:
+```bash
+sudo apt install influxdb
+```
+#### **5b. Installing volatility**
+Install volatility to analyze data:
+```
+Follow their instructions (https://github.com/volatilityfoundation/volatility3)
+```
 ---
 
 #### **6. Setting Up Directories**
