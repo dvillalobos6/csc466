@@ -34,7 +34,7 @@ def write_in_batches(points, batch_size, client):
 def generate_random_timestamp(base_time, time_range_minutes=25):
     random_offset = random.randint(0, time_range_minutes * 60)  # Convert minutes to seconds
     random_time = base_time + timedelta(seconds=random_offset)
-    return random_time.isoformat() + "Z"
+    return random_time.isoformat() + "Z"#I found this to be easier for visualization on data and seeing activity, this can be adjusted for the malware samples ran but I ran did this for 25 due to running malware for a long time
 # Main loop for processing JSON files
 points = []
 current_time = datetime.utcnow()  # Base time for the 25-minute range
